@@ -4,6 +4,15 @@
     min-height: 100vh;
 }
 
-.first .navbar {
+.first .navbar,
+.dropdown-menu {
     background-color: transparent !important;
+}
+
+.contact {
+    opacity: 0.5;
+}
+
+.first-title {
+    font-size: 5em
 }
