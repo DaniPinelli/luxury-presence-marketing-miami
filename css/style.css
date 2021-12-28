@@ -1,0 +1,9 @@
+.first {
+    background: url(../images/7.jpg) no-repeat center;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+.first .navbar {
+    background-color: transparent !important;
+}
