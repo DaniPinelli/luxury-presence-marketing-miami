@@ -100,6 +100,8 @@ h3 {
     text-align: center;
 }
 
+/*//////////////////////////Slider /////////////////*/
+
 .mb-300 {
     opacity: 0.7;
     background-color: white;
@@ -122,6 +124,70 @@ h3 {
     color: black;
     text-align: center;
 }
+
+/*//////////////////////////Footer /////////////////*/
+
+.foot {
+    max-height: 560px;
+    max-width: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+    font-size: medium;
+}
+
+.foot h6 {
+    height: 24px;
+    text-align: start;
+    margin-left: auto;
+}
+
+.foot p {
+    color: grey;
+    margin-top: 20px;
+}
+
+.foot li {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.foot ul {
+    margin-top: 130px;
+}
+
+.footOne {
+    margin-left: 366px;
+}
+
+.footTwo {
+    margin-left: 22px;
+}
+
+.footThree {
+    margin-left: 28px;
+}
+
+.footFour {
+    margin-left: 30px;
+}
+
+.footFive {
+    margin-left: 60px;
+}
+
+.lastDiv {
+    display: flex;
+}
+
+
+
+
+
+
+
+
+/*//////////////////////////Medias /////////////////*/
 
 @media(max-width:1878px) {
     .div-bar {
@@ -153,6 +219,50 @@ h3 {
 
     .main-text-2 {
         font-size: 15px;
+    }
+
+    .foot h6 {
+        height: 14px;
+        text-align: start;
+        margin-left: auto;
+    }
+
+    .foot p {
+        color: grey;
+        margin-top: 10px;
+    }
+
+    .foot li {
+        text-decoration: none;
+        list-style-type: none;
+    }
+
+    .foot ul {
+        margin-top: 70px;
+    }
+
+    .footOne {
+        margin-left: 166px;
+    }
+
+    .footTwo {
+        margin-left: 12px;
+    }
+
+    .footThree {
+        margin-left: 18px;
+    }
+
+    .footFour {
+        margin-left: 20px;
+    }
+
+    .footFive {
+        margin-left: 40px;
+    }
+
+    .lastDiv {
+        display: flex;
     }
 
 }
@@ -202,6 +312,50 @@ h3 {
         text-align: center;
     }
 
+    .foot h6 {
+        height: 6px;
+        text-align: start;
+        margin-left: auto;
+    }
+
+    .foot p {
+        color: grey;
+        margin-top: 5px;
+    }
+
+    .foot li {
+        text-decoration: none;
+        list-style-type: none;
+    }
+
+    .foot ul {
+        margin-top: 0px;
+    }
+
+    .footOne {
+        margin-left: 6px;
+    }
+
+    .footTwo {
+        margin-left: 0px;
+    }
+
+    .footThree {
+        margin-left: 8px;
+    }
+
+    .footFour {
+        margin-left: 8px;
+    }
+
+    .footFive {
+        margin-left: 12px;
+    }
+
+    .lastDiv {
+        display: flex;
+    }
+
 }
 
 @media(max-width:960px) {
@@ -226,11 +380,25 @@ h3 {
         text-align: center;
     }
 
+    .foot {
+        display: block;
+        max-height: 1000px;
+    }
+
+    .email-imput {
+        width: 138px;
+    }
+
 }
 
 @media(max-width:390px) {
     .main-div-1 {
         margin-top: 5rem;
+    }
+
+    .foot {
+
+        max-height: 1500px;
     }
 
 }
